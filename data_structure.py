@@ -2,19 +2,21 @@
 """
 Created on Sat Sep 25 15:46:25 2021
 
-@author: ABC
+@author: Sai Khairnar
 """
 
-print("hello world")
+print("Hello world")
 
 #Numbers
 #a=3 , b=5  #a and b are number objects 
 
 #String
 str1 = 'Hello Students' #string str1
-str2 = ' how are you' #string str2  
+str2 = ' how are you' #string str2 
+
 str1
 str2
+
 print (str1[0:5]) #printing first five character using slice operator  
 (str1[0:5])
 print (str1[4]) #printing 5th character of the string  
@@ -24,7 +26,7 @@ print (str1 + str2) #printing the concatenation of str1 and str2
 #Lists
 l  = [1, "hi", "python", True] 
 print (l[3:])  
-print (l[0:2])
+print (l[0:2]);
 print (l);  
 print (l + l);  
 print (l * 3);
@@ -36,9 +38,10 @@ print (l)
 #Tuple
 t  = ('hi', 'python', 2, 4) 
 t 
-print (t[1:]);  
+print(t[1:]);  
 print (t[0:2]);  
 print (t);  
+print(t[0:3])
 print (t + t)
 print (t * 3)  
 print (type(t)) 
@@ -54,6 +57,7 @@ print("2nd name is "+ d[4])
 print (d); 
 print (d.keys());  
 print (d.values());
+print("my name is " +d[3])
 
 #----ADVANCED----
 #list
@@ -63,14 +67,15 @@ shoplist
 len(shoplist)
 print(shoplist)
 
+
 #add item to list
 shoplist.append('rice')
 shoplist
 
+
 #sort
 shoplist.sort()  #inplace sort
 shoplist
-
 #index/select
 shoplist[0]
 shoplist[0:4]
@@ -109,10 +114,11 @@ student
 
 #Set
 #Sets are unordered collections of objects; ( [ , ])
-teamA = set(['india','england','australia','sri lanka','ireland'])
+teamA = set({'india','england','australia','sri lanka','ireland'})
 teamA
 teamB = set(['pakistan', 'south africa','bangladesh','ireland'])
 teamB
+
 
 #Checking whether a data value exists in a set or not.
 'india' in teamA
@@ -145,12 +151,14 @@ df
 
 #View a column of the dataframe in pandas:
 df['Name']
+df['Exam']
 
 #View two columns of the dataframe in pandas:
 df[['Name','Score','Exam']]
 
 #View first two rows of the dataframe in pandas:
 df[0:2]
-
+df.head()
+df.tail()
 
 
