@@ -30,10 +30,10 @@ print (l[0:2]);
 print (l);  
 print (l + l);  
 print (l * 3);
-print (type(l))
+[print (type(l))]
 #Lets try mutation 
 l[1] = "Bye"
-print (l)
+print(l)
 
 #Tuple
 t  = ('hi', 'python', 2, 4) 
@@ -89,6 +89,7 @@ shoplist
 #immutable - cannot modify- fast ; ( )
 zoo = ('python','lion','elephant','bird')
 zoo
+
 len(zoo)
 languages = 'c', 'java', 'php'  #better to put (), this also works
 languages
@@ -111,7 +112,6 @@ len(student)
 #adding a value
 student['A104'] = 'Hitesh'
 student
-
 #Set
 #Sets are unordered collections of objects; ( [ , ])
 teamA = set({'india','england','australia','sri lanka','ireland'})
