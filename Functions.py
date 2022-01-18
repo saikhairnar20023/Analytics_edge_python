@@ -50,7 +50,7 @@ test1 = 'Easy string'
 print(test1,'is',bool(test1)) 
 
 #sum(): Used to get the sum of numbers of an iterable, i.e., list.
-list_1 = [1,2,4]  
+list_1= [1,2,4]
 s = sum(list_1)  
 print(s)  
   
@@ -58,7 +58,7 @@ s = sum(list_1, 10)
 print(s) 
 
 #len(): Returns the length (the number of items) of an object.
-strA = 'Python'  
+strA = 'python'
 print(len(strA))  
 
 #list() creates a list in python.
@@ -85,7 +85,7 @@ print(result)
 result = dict() # returns an empty dictionary 
 print(result)
  
-result2 = dict(a=1,b=2)  
+result2 = dict(a=1,b=2,c=3)  
 # Displaying result  
 print(result2)  
 
@@ -95,8 +95,7 @@ print(result2)
 result = set() # empty set  
 result2 = set('12')  
 result3 = set('javatpoint') 
-result4 = {1,2}
-print (result4)
+
 # Displaying result  
 print(result)  
 print(result2)  
@@ -105,7 +104,7 @@ print(result3)
 #pow(): Used to compute the power of a number.
 # positive x, positive y (x**y)  
 print(pow(4, 2))  
-  
+
 # negative x, positive y  
 print(pow(-4, 2))  
 
