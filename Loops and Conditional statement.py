@@ -33,9 +33,10 @@ i,j=0,0
 for i in range(0,n):
     print()
     for j in range(0,i+1):
-        print("*",end=" ")
+        print("*",end =" ")
 
 #Exampl4: Else statement with For loop
+i=0
 for i in range(0,5):
     print(i)
 else:print("for loop completely exhausted, since there is no break.")
@@ -48,7 +49,14 @@ else:print("for loop completely exhausted, since there is no break.")
 i=1;
 while i<=10:
     print(i);
-    i=i+1;
+    i=i+2;
+print("execution is done")
+
+#example
+sai =0
+for sai in range(0,19,2):
+    print(sai)
+             
 
 #Example2:
 i=1
@@ -61,7 +69,7 @@ while i<=10:
     
 #Example3:Infinite while loop
 var = 1
-while var != 2:
+while var != 2: 
     i = int(input("Enter the number?"))
     print ("Entered value is %d"%(i))
     
@@ -86,6 +94,7 @@ else:print("The while loop exhausted");
 num = int(input("enter the number?"))
 if num%2 == 0:
     print("Number is even")
+
 
 #Example2:
 a = int(input("Enter a? "));
