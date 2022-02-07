@@ -34,6 +34,9 @@ print(all(k))
 k = []  
 print(all(k)) 
 
+k = 'none' 
+print(all(k)) 
+
 #------------------------------------------------------------------------------------
 
 #bool(): Converts a value to boolean(True or False)
@@ -108,6 +111,7 @@ print(pow(4, 2))
 # negative x, positive y  
 print(pow(-4, 2))  
 
+
 #tuple(): Used to create a tuple object.
 t1 = tuple()  
 print('t1=', t1)  
@@ -127,13 +131,13 @@ print('t1=',t1)
 #but they can return only one value in the form of expression.
 
 #Multiple arguments to Lambda function
-x = lambda a,b:a+b 
+x = lambda a,b,c,d,f:a+b+c+d+f
 # a and b are the arguments and a+b is the expression which gets evaluated and returned.   
-print("Addition = ",x(20,10)) 
+print("Addition = ",x(20,10,80,67,45)) 
 
 #Program to filter out the list which contains numbers  divisible by 3.
 List = [1,2,3,4,10,123,22]  
-Oddlist = list(filter(lambda x:(x%3 == 0),List)) 
+Oddlist = list(filter(lambda x:(x%2 == 0),List)) 
 # the list contains all the items of the list for which the lambda function evaluates to true  
 print(Oddlist) 
 
@@ -142,3 +146,4 @@ List = [1,2,3,4,10,123,22]
 new_list = list(map(lambda x:x*3,List)) 
 # this will return the triple of each item of the list and add it to new_list  
 print(new_list)  
+
