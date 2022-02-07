@@ -16,8 +16,8 @@ import pandas as pd
 def adder(adder1,adder2):return adder1+adder2
 
 #Create a Dictionary of series
-d = {'Score_Math':pd.Series([66,57,75,44,31,67,85,33,42,62,51,47]),
-     'Score_Science':pd.Series([89,87,67,55,47,72,76,79,44,92,93,69])}
+d = {'Score_Math':([66,57,75,44,31,67,85,33,42,62,51,47]),
+     'Score_Science':([89,87,67,55,47,72,76,79,44,92,93,69])}
 
 print(type(d))
 print(d)
