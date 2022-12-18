@@ -26,11 +26,16 @@ i=1
 num = int(input("Enter a number:"))
 for i in range(1,11):
     print("%a  X  %a = %a" %(num,i,num*i))
+    
+ num = int(input("Enter a number:"))
+for i in range(1,11):
+    s=num*i
+    print(s)
 
 #Example3:Nested For loop
 n = int(input("Enter the number of rows you want to print?"))
 i,j=0,0
-for i in range(0,n):
+for i in range(0,5):
     print()
     for j in range(0,i+1):
         print("*",end =" ")
@@ -52,6 +57,12 @@ while i<=10:
     i=i+2;
 print("execution is done")
 
+
+i=1
+for i in range(1,10):
+print(i)
+
+ 
 #example
 sai =0
 for sai in range(0,19,2):
